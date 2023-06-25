@@ -1,0 +1,19 @@
+{
+    "name": "Anti-Degen [Kick]",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Remove the degenerate/suspect content from kick.com!",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://kick.com/*"],
+            "js": ["js/content.js"]
+        }
+    ],
+    "permissions": ["https://kick.com/*"]
+}
