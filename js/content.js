@@ -134,5 +134,3 @@ modifyCategoryElements();
 modifyCardElements();
 modifySidebarElements();
 modifyClipElements();
-
-// Modify the main content div on page load
